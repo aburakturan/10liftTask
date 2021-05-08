@@ -36,12 +36,15 @@ Record your activity to the database using the `/running <value>` or `/biking <v
 /running 10.40
 /biking 20
 ```
+![Leaderboard Image](https://github.com/aburakturan/10liftTask/blob/master/src/img/leaderboard.png?raw=true)
+
 
 With the command `/leaderboard`, observe the leaderboards of the top three users with tables separated in the general, running and biking axis. Leaderboard also shows you which activity is the most active and the highest rated player in those activities.
 
 ```slack
 /leaderboard
 ```
+![Leaderboard Image](https://github.com/aburakturan/10liftTask/blob/master/src/img/leaderboard.png?raw=true)
 
 ## What I've done
 I created a Slack Bot to be able to use the Slack API. I gave the necessary permissions, made the settings, added the necessary slash commands for the task, and assigned the webhooks I created by opening a tunnel from my localhost with ngrok to these commands.
