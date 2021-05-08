@@ -45,6 +45,7 @@ With the command `/leaderboard`, observe the leaderboards of the top three users
 ![Leaderboard Image](https://github.com/aburakturan/10liftTask/blob/master/src/img/leaderboard.png?raw=true)
 
 ## What I've done
+
 I created a Slack Bot to be able to use the Slack API. I gave the necessary permissions, made the settings, added the necessary slash commands for the task, and assigned the webhooks I created by opening a tunnel from my localhost with ngrok to these commands.
 
 I chose Postgres as a database. I used the Sequelize package as an ORM. I created a table called Activity. I performed the database create, model creation and migrate operations with the Sequelize commands that I added to the package.json. I have created a database controller class that will be a bridge for database connections.
@@ -53,4 +54,5 @@ I create the index.js to capture slash commands from Slack. I wrote the Running 
 
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
