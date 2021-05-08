@@ -36,8 +36,6 @@ Record your activity to the database using the `/running <value>` or `/biking <v
 /running 10.40
 /biking 20
 ```
-![Leaderboard Image](https://github.com/aburakturan/10liftTask/blob/master/src/img/leaderboard.png?raw=true)
-
 
 With the command `/leaderboard`, observe the leaderboards of the top three users with tables separated in the general, running and biking axis. Leaderboard also shows you which activity is the most active and the highest rated player in those activities.
 
