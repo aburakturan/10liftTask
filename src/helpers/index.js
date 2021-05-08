@@ -1,7 +1,7 @@
 const { WebClient } = require('@slack/web-api');
 const token = process.env.SLACK_BOT_TOKEN;
 const client = new WebClient(token);
-const factors = require('../../enums/factors');
+const factors = require('../enums/factors');
 
 
 class fn  {

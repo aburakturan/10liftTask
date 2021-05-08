@@ -1,6 +1,6 @@
 const { App } = require('@slack/bolt');
 const fn = require('./src/helpers');
-const DatabaseController = require('./controllers/DatabaseController');
+const DatabaseController = require('./src/controllers/DatabaseController');
 require('dotenv').config();
 
 // Set the token and secret
