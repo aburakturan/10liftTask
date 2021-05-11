@@ -31,7 +31,7 @@ class DatabaseController {
             const records = await ActivityModel.findAll({
                     where: {
                         createdAt: {
-                          [Op.gt]: new Date(Date.now() - (160 * 160 * 1000)),
+                          [Op.gt]: new Date(Date.now() - (60 * 60 * 1000)),
                         }
                     },
                     attributes: [
@@ -61,7 +61,7 @@ class DatabaseController {
             const records = await ActivityModel.findAll({
                     where: {
                         createdAt: {
-                          [Op.gt]: new Date(Date.now() - (160 * 160 * 1000)),
+                          [Op.gt]: new Date(Date.now() - (60 * 60 * 1000)),
                         },
                         activity: this.activity,
                     },
@@ -91,7 +91,7 @@ class DatabaseController {
             const records = await ActivityModel.findAll({
                     where: {
                         createdAt: {
-                          [Op.gt]: new Date(Date.now() - (160 * 160 * 1000)),
+                          [Op.gt]: new Date(Date.now() - (60 * 60 * 1000)),
                         },
                     },
                     attributes: [
@@ -120,7 +120,7 @@ class DatabaseController {
             const records = await ActivityModel.findAll({
                     where: {
                         createdAt: {
-                          [Op.gt]: new Date(Date.now() - (160 * 160 * 1000)),
+                          [Op.gt]: new Date(Date.now() - (60 * 60 * 1000)),
                         },
                         activity: this.activity,
                     },
